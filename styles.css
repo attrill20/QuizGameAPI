@@ -1,0 +1,56 @@
+body {
+    background-color: #d68e8e;
+    background-image: url(https://images.pond5.com/flashing-light-wall-footage-006245993_prevstill.jpeg);
+    color: #040404;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 30px;
+}
+
+h1 {
+    background-color: rgb(255, 255, 255);
+    color: #040404;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+h2 {
+    background-color: rgb(255, 255, 255);
+    color: #040404;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+#true {
+    background-color: #61a02a;
+    color: #040404;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 1.1;
+
+}
+
+#false {
+    background-color: #ba4a4a;
+    color: #040404;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 30;
+}
+
+#newQ {
+    background-color: #8ed5d6;
+    color: #040404;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 1.1;
+}

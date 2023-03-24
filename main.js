@@ -26,7 +26,7 @@
 // styling design
 
 
-
+let answer = ""
 
 async function getQuestions() {
     const response = await fetch('https://opentdb.com/api.php?amount=1&difficulty=easy&type=boolean');
@@ -36,9 +36,9 @@ async function getQuestions() {
     console.log(question);
     document.querySelector('#question').innerHTML = question;
     console.log("#question");
-    const answer = data.results [0].correct_answer;
-    document.querySelector('#answer').innerHTML = answer;
-    console.log(answer);
+    answer = data.results [0].correct_answer;
+    //document.querySelector('#answer').innerHTML = answer;
+    //console.log(answer);
 }
 getQuestions();
 
@@ -59,7 +59,7 @@ falseButton.addEventListener('click', alertFunction);
 // if the two don't match then display alert saying "incorrect"
 
 function alertFunction() {
-    if (this.value === document.querySelector('#answer').innerHTML) {
+    if (this.value === answer) {
         alert('Correct!');
     } else {
         alert('Incorrect!');
