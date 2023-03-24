@@ -29,6 +29,9 @@
 
 
 let answer = ""
+let score = 0
+
+document.querySelector('#score').innerHTML = score;
 
 function showGreeting() {
     const username = document.getElementById('username').value;
@@ -84,10 +87,22 @@ falseButton.addEventListener('click', alertFunction);
 function alertFunction() {
     if (this.value === answer) {
         alert('Correct!');
+        score++;
+        document.querySelector('#score').innerHTML = score;
+        console.log(score)
+
     } else {
         alert('Incorrect!');
     }
 }
-    // hide the answer on the page
-    //document.querySelector('#answer').style.display = 'none';
+    
+// create scoreboard to keep track of score
+// create a counter to keep track of score
+// start counter on 0 score
+// if answer is correct add 1 to score
+// display score on page
+
+
+
+
 

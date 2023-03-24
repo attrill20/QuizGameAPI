@@ -89,4 +89,18 @@ h2 {
        width: 200px;
        margin-top: 70px;
     }
+
+p {
+    background-color: #8ed5d6;
+    color: #040404;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-left: 500px;
+       text-align: center;
+       margin:auto;
+       width: 200px;
+       margin-top: 70px;
+
 }
