@@ -6,6 +6,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     margin: 30px;
+    text-align: center;
 }
 
 h1 {
@@ -37,8 +38,7 @@ h2 {
     font-weight: 500;
     line-height: 1.1;
     text-align: center;
-    margin-left: 300px;
-    padding: 25px;
+      padding: 25px;
 }
 
 #false {
@@ -48,11 +48,8 @@ h2 {
     font-size: 130px;
     font-weight: 500;
     line-height: 1.1;
-    margin-left: 150px;
-    text-align: center;
-    padding: 25px;
-
-
+       text-align: center;
+   padding: 25px; 
 }
 
 #newQ {
@@ -62,8 +59,7 @@ h2 {
     font-size: 90px;
     font-weight: 500;
     line-height: 1.1;
-    margin-left: 400px;
-    text-shadow: 2pxx 2px 2px #44049d;
+    
 }
 
 #inputUsername {
@@ -74,12 +70,11 @@ h2 {
     font-weight: 500;
     line-height: 1.1;
     margin-left: 500px;
-    text-shadow: 2pxx 2px 2px #44049d;
-    text-align: center;
-    margin-top: 70px;
-    width : 400px;
-    text-align: center;
-}
+       text-align: center;
+       margin:auto;
+       width: 200px;
+       margin-top: 70px;
+    }
 
 #output {
     background-color: #8ed5d6;
@@ -89,10 +84,9 @@ h2 {
     font-weight: 500;
     line-height: 1.1;
     margin-left: 500px;
-    text-shadow: 2pxx 2px 2px #44049d;
-    text-align: center;
-    margin-top: 70px;
-    width : 400px;
-    text-align: center;
-    
+       text-align: center;
+       margin:auto;
+       width: 200px;
+       margin-top: 70px;
+    }
 }
