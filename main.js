@@ -15,7 +15,9 @@
 // if the two match is true then display alert saying "correct"
 // if the two match is false then display alert saying "incorrect"
 
-// prompt for name
+//create a new div to store input
+// add input with username on html. 
+// assign type to text
 // use name as a variable to display on the page
 
 // score counter
@@ -27,6 +29,27 @@
 
 
 let answer = ""
+
+function showGreeting() {
+    const username = document.getElementById('username').value;
+    document.getElementById('output').textContent = `Currently playing -  ${username}!`;
+}
+// if username has a value then hide div with id #inputUsername
+  
+// when submit is clicked hide the input box
+
+const inputUsername = document.querySelector('#inputUsername');
+const submitButton = document.querySelector('#submitButton');
+submitButton.addEventListener("click", hideBox);
+
+
+
+
+function hideBox () {
+    console.log ('hideBox');
+    inputUsername.style.display = 'none';
+}
+
 
 async function getQuestions() {
     const response = await fetch('https://opentdb.com/api.php?amount=1&difficulty=easy&type=boolean');
@@ -66,5 +89,5 @@ function alertFunction() {
     }
 }
     // hide the answer on the page
-    document.querySelector('#answer').style.display = 'none';
+    //document.querySelector('#answer').style.display = 'none';
 

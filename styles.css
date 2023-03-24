@@ -9,41 +9,50 @@ body {
 }
 
 h1 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(250, 4, 77);
     color: #040404;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 70px;
     font-weight: 500;
     line-height: 1.1;
+    text-align: center;
 }
 
 h2 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(112, 116, 73);
     color: #040404;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 40px;
     font-weight: 500;
     line-height: 1.1;
+    text-align: center;
+
 }
 
 #true {
     background-color: #61a02a;
     color: #040404;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 90px;
+    font-size: 130px;
     font-weight: 500;
     line-height: 1.1;
-
+    text-align: center;
+    margin-left: 300px;
+    padding: 25px;
 }
 
 #false {
     background-color: #ba4a4a;
     color: #040404;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 90px;
+    font-size: 130px;
     font-weight: 500;
     line-height: 1.1;
-    margin: 30;
+    margin-left: 150px;
+    text-align: center;
+    padding: 25px;
+
+
 }
 
 #newQ {
@@ -53,4 +62,37 @@ h2 {
     font-size: 90px;
     font-weight: 500;
     line-height: 1.1;
+    margin-left: 400px;
+    text-shadow: 2pxx 2px 2px #44049d;
+}
+
+#inputUsername {
+    background-color: #8ed5d6;
+    color: #040404;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-left: 500px;
+    text-shadow: 2pxx 2px 2px #44049d;
+    text-align: center;
+    margin-top: 70px;
+    width : 400px;
+    text-align: center;
+}
+
+#output {
+    background-color: #8ed5d6;
+    color: #040404;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-left: 500px;
+    text-shadow: 2pxx 2px 2px #44049d;
+    text-align: center;
+    margin-top: 70px;
+    width : 400px;
+    text-align: center;
+    
 }
