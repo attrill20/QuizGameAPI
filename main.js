@@ -15,8 +15,14 @@
 // if the two match is true then display alert saying "correct"
 // if the two match is false then display alert saying "incorrect"
 
-// scoreboard
+// prompt for name
+// use name as a variable to display on the page
+
+// score counter
 // ends after you get 3 questions incorrect (3 lives)
+// if you get 3 questions incorrect, display "game over" and "score"
+// scoreboard
+
 // styling design
 
 
